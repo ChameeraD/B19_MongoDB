@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient
 
-const  connectionString = 'mongodb+srv://testdb:adminadmin@cluster0.cuebl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const  connectionString = ''
 
 var dbConn = MongoClient.connect(connectionString, { useUnifiedTopology: true })
 
